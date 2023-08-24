@@ -6,14 +6,14 @@ function fibbonacci($n){
 
     $fibbonacci = array(0, 1);
 
-    for ($i = 2, $i < $n, $i++){
+    for ($i = 2; $i < $n; $i++){
         $fibbonacci[$i] = $fibbonacci[$i - 1] + $fibbonacci[$i - 2];
     }
-    return fibbonacci;
+    return $fibbonacci;
 
 }
 
 $exemplo = 10;
 $sequenciaFibbonacci = fibbonacci($exemplo);
 
-echo($sequenciaFibbonacci);
+echo implode(', ', $sequenciaFibbonacci);

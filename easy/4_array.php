@@ -3,7 +3,7 @@
 // Em seguida, exiba as informações na tela.
 
 $informacoes = array(
-    "nome" => "Caio"
+    "nome" => "Caio",
     "idade" => 21,
     "cidade" => "Rio De Janeiro"
 );
